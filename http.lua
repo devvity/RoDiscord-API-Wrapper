@@ -30,8 +30,7 @@ function API.new(Token)
 end
 
 function API:Message(Content, ChannelID)
-	
-	print(Content, ChannelID)
+
 	
 	local MessageAPI = "channels/"..tostring(ChannelID) .."/messages"
 	
